@@ -9,7 +9,8 @@ then I decided to build a "Simon Says" like game
 
 ## Summary
 
-The app was build with [redux](https://github.com/reactjs/redux) so it was quite simple to manage the data flow using [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) functions together with [redux-thunk](https://github.com/gaearon/redux-thunk)
+The app was built with [redux](https://github.com/reactjs/redux) so it was quite simple to manage the data flow using [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) 
+functions together with [redux-thunk](https://github.com/gaearon/redux-thunk)
 
 > tl;dr thunks and `async` functions play nice together :heart:
 
@@ -24,8 +25,8 @@ const foo = payload => async dispatch => {
 
 ```
 $ cd react-simon-says
-$ npm install
-$ npm start
+$ yarn
+$ yarn start
 ```
 
 ### Specs
@@ -33,13 +34,13 @@ $ npm start
 I am using [Jest](https://facebook.github.io/jest/) as my spec runner, you can run it using:
 
 ```
-$ npm test
+$ yarn test
 ```
 
 and to get a coverage overview:
 
 ```
-$ npm test -- --coverage
+$ yarn test -- --coverage
 ```
 
 ### Contributing

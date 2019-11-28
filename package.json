@@ -40,7 +40,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --report=lcov",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+
   },
   "browserslist": {
     "production": [
