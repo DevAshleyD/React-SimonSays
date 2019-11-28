@@ -1,6 +1,7 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { colors } from '../constants';
+import PropTypes from 'prop-types';
 
 const Headline = styled.h1`
   color: #FFF;

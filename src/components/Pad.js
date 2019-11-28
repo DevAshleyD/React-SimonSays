@@ -7,7 +7,7 @@ const transform = `
   transform: scale(1.02);
 `
 
-const lighten = from => color(from).lighten(0.333).hexString();
+const lighten = from => color(from).lighten(0.333);
 
 const activeCSS = props => `
   background-color: ${lighten(props.color)} !important;

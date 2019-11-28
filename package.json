@@ -1,19 +1,21 @@
 {
-  "name": "react-simon",
+  "name": "react-simon-says",
   "homepage": "https://DevAshleyD.github.io/react-simon-says",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "coveralls": "^2.11.15",
+    "coveralls": "^3.0.9",
     "enzyme": "^2.6.0",
     "enzyme-to-json": "^1.4.4",
     "gh-pages": "^0.12.0",
     "react-addons-test-utils": "^15.4.1",
-    "react-scripts": "1.0.11",
+    "react-scripts": "^3.2.0",
     "redux-mock-store": "^1.2.1"
   },
   "dependencies": {
-    "color": "^0.11.4",
+    "color": "^3.1.2",
+    "npm-cli": "^0.1.0",
+    "prop-types": "^15.7.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-icons": "^2.2.1",
@@ -23,7 +25,9 @@
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0",
     "reflexbox": "^2.2.3",
-    "styled-components": "^1.1.1"
+    "semver": "^6.3.0",
+    "styled-components": "^1.1.1",
+    "webpack": "^4.41.2"
   },
   "jest": {
     "unmockedModulePathPatterns": [
@@ -36,6 +40,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --report=lcov",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
